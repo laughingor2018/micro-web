@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/micro/go-log"
 
-	"micro-web/api/client"
-	"micro-web/api/handler"
+	"github.com/laughingor2018/micro-web/api/client"
+	"github.com/laughingor2018/micro-web/api/handler"
 	"github.com/micro/go-micro"
 
 	example "micro-web/api/proto/example"
