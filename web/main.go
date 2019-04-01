@@ -4,7 +4,7 @@ import (
 	"github.com/micro/go-log"
 	"net/http"
 
-	"github.com/micro/examples/template/web/handler"
+	"micro-web/web/handler"
 	"github.com/micro/go-web"
 )
 
@@ -17,6 +17,8 @@ func main() {
 
 	// register html handler
 	service.Handle("/", http.FileServer(http.Dir("html")))
+
+	service.Handle("/tpls", http.FileServer(http.Dir("tpls")))
 
 	// register call handler
 	service.HandleFunc("/example/call", handler.ExampleCall)
