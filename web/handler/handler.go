@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	example "micro-web/srv/proto/example"
+	example "github.com/laughingor2018/micro-web/srv/proto/example"
 	"github.com/micro/go-micro/client"
 )
 

@@ -1,12 +1,12 @@
 package main
 
 import (
-	"micro-web/srv/handler"
-	"micro-web/srv/subscriber"
+	"github.com/laughingor2018/micro-web/srv/handler"
+	"github.com/laughingor2018/micro-web/srv/subscriber"
 	"github.com/micro/go-log"
 	"github.com/micro/go-micro"
 
-	example "micro-web/srv/proto/example"
+	example "github.com/laughingor2018/micro-web/srv/proto/example"
 )
 
 func main() {

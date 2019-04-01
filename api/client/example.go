@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	example "micro-web/srv/proto/example"
+	example "github.com/laughingor2018/micro-web/srv/proto/example"
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/server"
 )

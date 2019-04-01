@@ -3,7 +3,7 @@ package handler
 import (
 	"context"
 
-	example "github.com/micro/examples/template/fnc/proto/example"
+	example "github.com/laughingor2018/micro-web/fnc/proto/example"
 )
 
 type Example struct{}
